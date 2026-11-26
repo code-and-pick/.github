@@ -5,7 +5,7 @@
 
 | 자리 | 파일 이름 | 내용 | 권장 형식 |
 |---|---|---|---|
-| 1 | `logo.png` | PMart 로고 | PNG(투명 배경)·가로 400px 안팎 (SVG 면 `logo.svg` 로 바꾸고 대문 주소도) |
+| 1 | `logo.webp` | PMart 로고 — **넣음(2026-11-26)** | WebP 2000×668 투명 배경, 대문에서 가로 420 |
 | 2 | — | 시연 영상 링크(파일 아님) | YouTube 등 공개 주소 |
 | 3 | `customer-home.png` · `customer-search.png` · `customer-cart.png` · `customer-order.png` | 고객 앱 홈·검색·장바구니/결제·주문/배송 조회 | PNG, 폰 세로 화면 |
 | 3 | `rider-offer.png` · `rider-navigation.png` · `rider-delivered.png` | 라이더 앱 배차 수락·길 안내·전달 사진 | PNG, 폰 세로 화면 |

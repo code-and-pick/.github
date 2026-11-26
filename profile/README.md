@@ -5,8 +5,7 @@
 
 <br>
 
-<!-- [사진 자리 1] 로고 — profile/images/logo.png 를 올린 뒤 아래 줄의 주석을 푼다 -->
-<!-- <img src="https://raw.githubusercontent.com/code-and-pick/.github/main/profile/images/logo.png" width="360" alt="PMart 로고"> -->
+<img src="https://raw.githubusercontent.com/code-and-pick/.github/main/profile/images/logo.webp" width="420" alt="PMart 로고">
 
 # PMart
 
