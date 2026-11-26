@@ -82,6 +82,18 @@ flowchart TB
     Services --> ES
 ```
 
+## 앱 구성
+
+| 앱 | 쓰는 사람 | 위치 |
+|---|---|---|
+| 📱 **고객 앱** | 고객 | [pmart-clients / apps/customer_app](https://github.com/code-and-pick/pmart-clients/tree/main/apps/customer_app) |
+| 🛵 **라이더 앱** | 라이더 | [pmart-clients / apps/rider_app](https://github.com/code-and-pick/pmart-clients/tree/main/apps/rider_app) · 시뮬레이터 [pmart-rider-simulation](https://github.com/code-and-pick/pmart-rider-simulation) |
+| 📦 **MFC 앱** | MFC 작업자 | [pmart-clients / apps/mfc_app](https://github.com/code-and-pick/pmart-clients/tree/main/apps/mfc_app) · 시뮬레이터 [pmart-mfc-simulation](https://github.com/code-and-pick/pmart-mfc-simulation) |
+| 🏭 **DC 앱** | 중앙 물류센터(CDC) 운영자 | 백오피스 웹 [pmart-clients / web/cdc-backoffice](https://github.com/code-and-pick/pmart-clients/tree/main/web/cdc-backoffice) · 시뮬레이터 [pmart-cdc-simulation](https://github.com/code-and-pick/pmart-cdc-simulation) |
+| 🖥️ **백오피스 앱** (웹 5종) | 본사·센터 운영자 | 통합 [backoffice](https://github.com/code-and-pick/pmart-clients/tree/main/web/backoffice) · [MFC](https://github.com/code-and-pick/pmart-clients/tree/main/web/mfc-backoffice) · [CDC](https://github.com/code-and-pick/pmart-clients/tree/main/web/cdc-backoffice) · [라이더 운영](https://github.com/code-and-pick/pmart-clients/tree/main/web/rider-backoffice) · [인사](https://github.com/code-and-pick/pmart-clients/tree/main/web/hr-backoffice) |
+
+앱은 한 저장소([pmart-clients](https://github.com/code-and-pick/pmart-clients))에서 공통 코드(Flutter `packages/` · 웹 `web/core`·`web/ui`)를 함께 씁니다. 백엔드는 모든 앱이 같은 [pmart-backend](https://github.com/code-and-pick/pmart-backend) 를 씁니다.
+
 ## 사용자별 화면
 
 | 사용자 | 앱 | 하는 일 |
